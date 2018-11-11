@@ -1,0 +1,6 @@
+CREATE TABLE jogos(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    plataforma VARCHAR(255) NOT NULL,
+    preco INT(10) NOT NULL
+);
